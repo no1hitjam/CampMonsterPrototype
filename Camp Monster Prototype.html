@@ -1,0 +1,265 @@
+<tw-storydata name="Camp Monster Prototype" startnode="1" creator="Twine" creator-version="2.1.0" ifid="1BDEA286-2954-410F-B921-ABE8240302B8" format="Harlowe" format-version="1.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Beginning" tags="" position="199,1.5">It was a forest cabin trip like any other. But this time, it was *different.*
+
+As soon as we arrived in Joe&#x27;s truck, we knew something was wrong. The cabin&#x27;s front windows were broken and the door was ajar. Maybe it wasn&#x27;t the best idea, but we all split up to look around the cabin to try to figure out what had happened. Eventually, we all met inside to report our findings. 
+
+&quot;There&#x27;s no food in the cupboards,&quot; said Gabby.
+
+&quot;The windows were broken from the outside,&quot; said Marvin.
+
+&quot;The generator is busted,&quot; said Rebecca, &quot;We don&#x27;t have electricity.&quot;
+
+&quot;I found some tire tracks outside,&quot; said Joe, &quot;Looks it came from a sedan.&quot;
+
+&quot;We should go,&quot; said Gabby, &quot;I don&#x27;t feel safe here.&quot;
+
+&quot;I&#x27;ll get the car ready,&quot; said Joe on his way out the front door.
+
+What do you think?
+
+[[&quot;Yeah let&#x27;s get out of here.&quot;|BeginningGo]]
+
+[[&quot;Let&#x27;s stay here.&quot;|BeginningStay]]</tw-passagedata><tw-passagedata pid="2" name="BeginningGo" tags="" position="102,125.5">&quot;Yeah let&#x27;s get out of here,&quot; you say to the group. Everyone murmurs in agreement. But before the murmurring has time to quell, you hear Joe yell &quot;Oh shit!&quot; loudly outside.
+
+[[Continue|OutOfGas]]
+</tw-passagedata><tw-passagedata pid="3" name="BeginningStay" tags="" position="275,125.5">Everyone seems quick to leave, but you don&#x27;t really see what all the fuss is about. &quot;Let&#x27;s stay here,&quot; you say.
+
+&quot;I don&#x27;t think that&#x27;s a good idea,&quot; says Marvin.
+
+&quot;For all we know the guy or bear that got into our cabin is still around here somewhere,&quot; says Gabby. &quot;He could be violent!&quot;
+
+&quot;I agree,&quot; says Rebecca. &quot;Let&#x27;s get out of here as soon as we can.&quot;
+
+Before you have time to respond, you hear Joe yell &quot;Oh shit!&quot; loudly outside.
+
+[[Continue|OutOfGas]]</tw-passagedata><tw-passagedata pid="4" name="OutOfGas" tags="" position="200,250">&quot;Truck&#x27;s out of gas,&quot; says Joe, walking back through the front door.
+
+The room erupts in confusion and protest. &quot;We just filled it up on our way here!&quot; shouts Marvin.
+
+&quot;What&#x27;s the gas mileage on that thing?&quot; says Rebecca.
+
+&quot;It&#x27;s not that low!&quot; says Joe. &quot;I don&#x27;t know what happened, but we&#x27;re stuck here.&quot;
+
+There is a moment of silence as everyone considers the awful situation they are in. Eventually Gabby speaks up. &quot;This is your cabin, Marvin. Isn&#x27;t there somewhere around here we could go?&quot;
+
+&quot;Oh yeah, there&#x27;s a **hunting cabin** nearby!&quot; says Marvin. &quot;There should be plenty of **guns** there we can arm ourselves with!&quot;
+
+&quot;What about **food**?&quot; says Rebecca. &quot;We don&#x27;t have anything to eat, I think that should be our top priority.&quot;
+
+&quot;Well there&#x27;s actually **bunker** nearby that&#x27;s supposed to be stocked for five years,&quot; says Marvin. &quot;But the guy who owns it is kinda crazy.&quot;
+
+It sounds like a time to chime in. What do you think?
+
+[[&quot;Let&#x27;s get some guns.&quot;|GetGuns]]
+[[&quot;Let&#x27;s focus on food.&quot;|GetFood]]
+[[&quot;There&#x27;s something else...&quot;|GetOther]]</tw-passagedata><tw-passagedata pid="5" name="GetGuns" tags="" position="50,402">&quot;Let&#x27;s get some guns,&quot; you say.
+
+(set: $GetChoice to &#x27;guns&#x27;)
+
+[[&quot;Otherwise we can&#x27;t protect ourselves from whoever did this.&quot;|GetGunsProtect]]
+
+[[&quot;I&#x27;ve always wanted to hold a gun.&quot;|GetGunsHold]]
+
+[[&quot;I&#x27;m not hungry anyways.&quot;|GetGunsFull]]</tw-passagedata><tw-passagedata pid="6" name="GetFood" tags="" position="200,400">&quot;Let&#x27;s focus on food,&quot; you say.
+
+(set: $GetChoice to &#x27;food&#x27;)
+
+[[&quot;We have to stay healthy and alert in case anyone tries to hurt us.&quot;|GetFoodHealthy]]
+
+[[&quot;Guns don&#x27;t sound safe to me.&quot;|GetFoodSafe]]
+
+[[&quot;I&#x27;m really hungry.&quot;|GetFoodHungry]]</tw-passagedata><tw-passagedata pid="7" name="GetOther" tags="" position="350,400">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="GetGunsProtect" tags="" position="50,550">&quot;Let&#x27;s get some guns,&quot; you say. &quot;Otherwise we can&#x27;t protect ourselves from whoever did this.&quot;
+
+&quot;I&#x27;m not sure if that&#x27;s safe,&quot; says Gabby. &quot;Should we really all be carrying guns around?&quot;
+
+&quot;It doesn&#x27;t have to be everyone,&quot; says Marvin. He looks at you. &quot;We can protect the group by ourselves.&quot;
+
+&quot;I&#x27;m going with you, Marvin&quot; says Joe nodding at Gabby. You sense a closeness between them.
+
+&quot;Fine,&quot; says Rebecca. Gabby and I will go get food from the bunker.&quot;
+
+What do you think?
+
+[[&quot;Sounds good. Joe, Marvin and I will get guns. Rebecca and Gabby will get food.&quot;|PJMGuns,RGFood]]
+
+[[&quot;No. We all have to stick together.&quot;|StickTogether]]</tw-passagedata><tw-passagedata pid="9" name="GetGunsHold" tags="" position="350,551">&quot;Let&#x27;s get some guns,&quot; you say. &quot;I&#x27;ve always wanted to hold a gun.&quot;
+
+Rebecca scoffs. &quot;I don&#x27;t think you&#x27;re taking this seriously!&quot; she says.
+
+&quot;It won&#x27;t be safe with all of us swinging guns around,&quot; says Gabby.
+
+&quot;There should be some tools or boards we can improvise weapons with,&quot; says Joe. &quot;Food&#x27;s gonna be a lot harder to find.&quot;
+
+&quot;Well, maybe you&#x27;re right,&quot; says Marvin. He looks at you. &quot;Sorry, but I think the people have spoken.&quot;
+
+The group indeed appears agreed. Everyone is getting ready to head to the bunker.
+
+[[Continue|AllFood]]</tw-passagedata><tw-passagedata pid="10" name="GetGunsFull" tags="" position="200,551">&quot;Let&#x27;s get some guns,&quot; you say. &quot;I&#x27;m not hungry anyways.&quot;
+
+&quot;Do you really think you&#x27;ll be saying that when night comes?&quot; says Rebecca.
+
+&quot;I won&#x27;t care if whoever did this comes back!&quot; says Marvin. &quot;I want a weapon!&quot;
+
+&quot;I&#x27;m not sure if that&#x27;s safe,&quot; says Gabby. &quot;Should we really all be carrying guns around?&quot;
+
+&quot;It doesn&#x27;t have to be everyone,&quot; says Marvin. He looks at you. &quot;We can protect the group by ourselves.&quot;
+
+&quot;I&#x27;m coming too, Marvin&quot; says Joe.
+
+&quot;Fine,&quot; says Rebecca. &quot;Gabby and I will go get food from the bunker.&quot;
+
+It&#x27;s your turn to speak.
+
+[[&quot;Sounds good. Joe, Marvin and I will get guns. Rebecca and Gabby will get food.&quot;|PJMGuns,RGFood]]
+
+[[&quot;No. We all have to stick together&quot;|StickTogether]]</tw-passagedata><tw-passagedata pid="11" name="PJMGuns,RGFood" tags="" position="601,300">The group has decided to split up. Marvin gave directions to Rebecca and Gabby to the bunker. He leads the way for you and Joe to get to the hunting cabin.
+
+It&#x27;s a long walk with several twists and turns, and a little bush-wacking. &quot;Do you know where you&#x27;re taking us?&quot; says Joe.
+
+&quot;No, I&#x27;m getting you both lost so I can devour you when the time is right,&quot; says Marvin. Joe grabs Marvin by the collar and Marvin flails around. &quot;Geez!&quot; says Marvin, &quot;I&#x27;m trying to lighten the mood, okay?&quot;
+
+&quot;Well, you&#x27;re doing a shitty job,&quot; says Joe, releasing him.
+
+Soon after, the cabin comes into view. Vines, leaves, and brush cover the ground around it.
+
+&quot;When was the last time someone came here?&quot; says Joe.
+
+&quot;You should be happy,&quot; says Marvin, grabbing the door handle. &quot;At least the guy who trashed our cabin didn&#x27;t do the same here.&quot; He pulls on the handle but the door won&#x27;t budge. &quot;Aw, crap.&quot;
+
+
+
+</tw-passagedata><tw-passagedata pid="12" name="StickTogether" tags="" position="26,1075">&quot;No. We all have to stick together,&quot; you say. 
+
+[[&quot;We don&#x27;t have a way to keep in contact.&quot;|StickTogetherContact]]
+
+[[&quot;We don&#x27;t know how dangerous this guy is.&quot;|StickTogetherDangerous]]
+
+[[&quot;We can&#x27;t completely trust each other.&quot;|StickTogetherTrust]]</tw-passagedata><tw-passagedata pid="13" name="GetFoodHealthy" tags="" position="47,700">&quot;Let&#x27;s focus on food,&quot; you say. &quot;We have to stay healthy and alert in case anyone tries to hurt us.&quot;
+
+&quot;You&#x27;re right,&quot; says Rebecca. &quot;It&#x27;s been a while since we&#x27;ve eaten. If whoever did this comes back, we need the energy to fight!&quot;
+
+&quot;Who needs energy when you have guns?&quot; says Marvin.
+
+&quot;It&#x27;s not just about fighting,&quot; says Joe. &quot;We need to be on the lookout. Someone needs to stay up at night and keep watch.&quot;
+
+&quot;Well, why don&#x27;t we split up?&quot; says Marvin. &quot;I&#x27;ll get the guns and you guys can get the food!&quot;
+
+&quot;I&#x27;m fine with that,&quot; says Rebecca.
+
+&quot;I don&#x27;t know...&quot; says Gabby.
+
+&quot;I&#x27;ll go get the guns with you,&quot; says Joe. &quot;No one should be out here alone.&quot;
+
+What do you think?
+
+[[&quot;Sounds good. Joe and Marvin will get guns. Rebecca, Gabby and I will get food.&quot;|JMGuns,PRGFood]]
+
+[[&quot;No. We all have to stick together.&quot;|StickTogether]]</tw-passagedata><tw-passagedata pid="14" name="GetFoodSafe" tags="" position="201,701">&quot;Let&#x27;s focus on food,&quot; you say. &quot;Guns don&#x27;t sound safe to me.&quot;
+
+Gabby nods, saying &quot;They aren&#x27;t even ours! I don&#x27;t think it&#x27;s a good idea to steal guns.&quot;
+
+&quot;This is an emergency!&quot; yells Marvin. &quot;Desperate times call for desperate measures!&quot;
+
+&quot;Calm down Marvin,&quot; says Joe. We need to think this through. Don&#x27;t you think the guy who raided our cabin might have raided the hunter&#x27;s cabin too?&quot;
+
+The room falls silent as the room considers this thought.
+
+&quot;We have to do something right now,&quot; says Rebecca. &quot;We can&#x27;t fall into hopelessness.&quot;
+
+&quot;Let&#x27;s just get the food. I don&#x27;t even want to think about this,&quot; says Marvin.
+
+[[Continue|AllFood]]</tw-passagedata><tw-passagedata pid="15" name="GetFoodHungry" tags="" position="350,698">&quot;Let&#x27;s focus on food,&quot; you say. &quot;I&#x27;m really hungry.&quot;
+
+&quot;And we&#x27;re only going to get hungrier,&quot; says Rebecca.
+
+&quot;I don&#x27;t care how hungry I am if that guy&#x27;s gonna come back and stab me,&quot; says Marvin. &quot;I want to be ready.&quot;
+
+&quot;We don&#x27;t need guns to be ready,&quot; says Joe. &quot;We need to be alert. We need someone keeping guard at night. And we need to trust each other.&quot; Joe&#x27;s expression has turned serious, and he turns to you. &quot;Go with Gabby and Rebecca to get food. Marvin and I will grab weapons.&quot;
+
+Joe&#x27;s words have had a profound effect on the room. What do you think?
+
+
+[[&quot;Sounds good. Joe and Marvin will get guns. Rebecca, Gabby and I will get food.&quot;|JMGuns,PRGFood]]
+
+[[&quot;No. We all have to stick together.&quot;|StickTogether]]</tw-passagedata><tw-passagedata pid="16" name="JMGuns,PRGFood" tags="" position="601,599">The group has decided to split up. Marvin and Joe head to the hunting cabin. You, Rebecca, and Gabby head to the bunker for food, following a hand-drawn map Marvin gave you.
+
+No one has much to say on the walk. You keep an eye on the trees around you, but fail to notice anything suspicious. Eventually the trail leads to a small clearing with a hole in the ground.
+
+Inspecting the hole, you see a ladder going down about 10 feet.</tw-passagedata><tw-passagedata pid="17" name="AllFood" tags="" position="601,0">The group has decided to go to the bunker together to get food. Marvin leads the way and you, Joe, Gabby, and Rebecca follow.
+
+No one has much to say on the walk. You keep an eye on the trees around you, but fail to notice anything suspicious. Eventually the trail leads to a small clearing with a hole in the ground.
+
+Inspecting the hole, you see a ladder going down about 10 feet.</tw-passagedata><tw-passagedata pid="18" name="StickTogetherContact" tags="" position="25,1223">&quot;No. We all have to stick together,&quot; you say. &quot;We don&#x27;t have a way to keep in contact.&quot;
+
+Everyone pulls out there phones only to realize that there is indeed no reception in this neck of the woods.
+
+&quot;You&#x27;re right,&quot; says Joe. &quot;It might be best if we stick together until we come up with some form of communication.&quot;
+
+No one offers a rebuttal.
+
+(if: $GetChoice is &#x27;guns&#x27;)[[[Continue|AllGuns]]]
+(else-if: $GetChoice is &#x27;food&#x27;)[[[Continue|AllFood]]]
+</tw-passagedata><tw-passagedata pid="19" name="StickTogetherDangerous" tags="" position="175,1227">&quot;No. We all have to stick together,&quot; you say. &quot;We don&#x27;t know how dangerous this guy is.&quot;
+
+&quot;We&#x27;ll still be paired up, I don&#x27;t see the problem,&quot; says Marvin.
+
+&quot;I don&#x27;t know,&quot; says Gabby. &quot;We just got here, and this is all happening so fast. We should be cautious.&quot;
+
+&quot;I disagree,&quot; says Rebecca. &quot;We need to act as efficiently as possible to get the upper-hand.&quot;
+
+Joe seems at a loss for words.
+
+The group is still divided. You were unable to unite them into one party.
+
+(if: $GetChoice is &#x27;food&#x27;)[[[Continue|JMGuns,PRGFood]]]
+(else-if: $GetChoice is &#x27;guns&#x27;)[[[Continue|PJMGuns,RGFood]]]</tw-passagedata><tw-passagedata pid="20" name="StickTogetherTrust" tags="" position="325,1227">&quot;No. We all have to stick together,&quot; you say. &quot;We can&#x27;t completely trust each other.&quot;
+
+&quot;What do you mean?&quot; says Rebecca.
+
+[[&quot;One of us ransacked the cabin.&quot;|TrustRansack]]
+
+[[&quot;One of us is hiding the cabin&#x27;s food!&quot;|TrustFood]]
+
+[[&quot;One of us siphoned the gas.&quot;|TrustGas]]
+
+[[&quot;Uh... nevermind.|TrustNevermind]]</tw-passagedata><tw-passagedata pid="21" name="TrustRansack" tags="" position="100,1377">&quot;One of us ransacked the cabin,&quot; you say. The cabin looks at you bewildered.
+
+&quot;We were all in the car together, we all saw the cabin ransacked,&quot; says Gabby, &quot;I don&#x27;t see how that&#x27;s possible.&quot;
+
+&quot;Yeah that doesn&#x27;t really make sense,&quot; says Joe. &quot;None of us even knew where this place was besides Marvin.&quot;
+
+&quot;Even if you did,&quot; says Marvin, &quot;My dad was here last night. There&#x27;s no way one of us could have done this in time.&quot;
+
+You failed to convince the group.
+
+(if: $GetChoice is &#x27;food&#x27;)[[[Continue|JMGuns,PRGFood]]]
+(else-if: $GetChoice is &#x27;guns&#x27;)[[[Continue|PJMGuns,RGFood]]]</tw-passagedata><tw-passagedata pid="22" name="TrustFood" tags="" position="250,1377">&quot;One of us is hiding the cabin&#x27;s food!&quot; you say with determination. There is a brief pause.
+
+&quot;I don&#x27;t think that&#x27;s possible,&quot; says Marvin. &quot;Gabby and I have been in here the whole time and we&#x27;ve all searched this place high and low.&quot;
+
+&quot;Why would someone even do that?&quot; says Gabby.
+
+&quot;We can&#x27;t throw out accusations like this,&quot; says Joe. &quot;Right now we have to trust each other.&quot;
+
+You failed to convince the group.
+
+(if: $GetChoice is &#x27;food&#x27;)[[[Continue|JMGuns,PRGFood]]]
+(else-if: $GetChoice is &#x27;guns&#x27;)[[[Continue|PJMGuns,RGFood]]]
+
+
+</tw-passagedata><tw-passagedata pid="23" name="TrustGas" tags="" position="400,1377">&quot;One of us siphoned the gas,&quot; you say, looking around the room. You catch Joe&#x27;s eye; he has a very grave look on his face.
+
+&quot;Siphoned the gas?&quot; says Gabby, &quot;Why would one of us do that?&quot;
+
+</tw-passagedata><tw-passagedata pid="24" name="TrustNevermind" tags="" position="550,1377">You back off from your aggressive stance, and the group remains divided.
+
+(if: $GetChoice is &#x27;food&#x27;)[[[Continue|JMGuns,PRGFood]]]
+(else-if: $GetChoice is &#x27;guns&#x27;)[[[Continue|PJMGuns,RGFood]]]</tw-passagedata><tw-passagedata pid="25" name="AllGuns" tags="" position="599,899">The group has decided to go to the hunter&#x27;s cabin together to get guns. Marvin leads the way and you, Joe, Gabby, and Rebecca follow.
+
+It&#x27;s a long walk with several twists and turns, and a little bush-wacking. &quot;Do you know where you&#x27;re taking us?&quot; says Joe.
+
+&quot;You&#x27;re gonna have to trust me, Joe,&quot; says Marvin. Soon after, the cabin comes into view. Vines, leaves, and brush cover the ground around it.
+
+&quot;When was the last time someone came here?&quot; says Joe.
+
+&quot;You should be happy,&quot; says Marvin, grabbing the door handle. &quot;At least the guy who trashed our cabin didn&#x27;t do the same here.&quot; He pulls on the handle but the door won&#x27;t budge. &quot;Aw, crap.&quot;
+</tw-passagedata></tw-storydata>
